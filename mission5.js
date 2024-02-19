@@ -28,25 +28,23 @@ let grandTotalPrice = 0
 const seatArr = [];
 for(const seat of seatAll){
     seat.addEventListener('click', function (){
+        
         if(seatCount < 4){
             const seatName = seat.innerText;
             if(seatArr.includes(seatName)){
                 return;
             }
+            seat.style.backgroundColor ='#1DD100';
             seatArr.push(seatName)
-        seatCount++;
-        seatLeft--;
-        totalPrice = seatCount * 550;
-        const myPrice = document.getElementById("count-sum")
+            seatCount++;
+            seatLeft--;
+            totalPrice = seatCount * 550;
+            const myPrice = document.getElementById("count-sum")
             myPrice.innerHTML = totalPrice;
             grandTotalPrice = seatCount * 550;
             const allMyPrice = document.getElementById("finalcost")
             allMyPrice.innerHTML = grandTotalPrice;
          
-         // background color----->
-         
-         seat.classList.add('bg-[#1DD100]');
-
         const CountAll = document.getElementById('countPlus');
         CountAll.innerHTML = seatCount;
         document.getElementById("downNumber").innerHTML = seatLeft;    
@@ -87,8 +85,6 @@ for(const seat of seatAll){
 
     }
     })
-
-    
 
 
 }
