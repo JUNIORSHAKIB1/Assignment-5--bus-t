@@ -40,17 +40,19 @@
     </header>
     <!-- header end ---------->
     <main>
-        <section class=" container mx-auto lg:px-24 px-8 py-2">
+        <section class=" container bg-cover  bg-center mx-auto lg:px-24 px-8 py-2">
             <div class="relative min-h-screen bg-[url(images/banner.png)] bg-no-repeat bg-center text-center justify-center h-full rounded-md">
-               <h1 class="absolute translate-x-40 translate-y-[80px] text-white  text-[70px]">End-to-End Travel withbr <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
-               <p class=" translate-y-[300px] text-white w-[626px] translate-x-52">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-               <button class="btn bg-[#1DD100] border-none translate-y-[340px]">Buy Tickets</button>
+               <h1 class="absolute translate-x-1 lg:translate-x-40 translate-y-[50px] lg:translate-y-[80px] text-white text-[32px] lg:text-[70px]">End-to-End Travel withbr <br> <span class="text-[#1DD100]">P Paribahan</span></h1>
+               <p class="translate-y-[150px] lg:translate-y-[300px] text-white w-[350px] lg:w-[626px] text-[10px]  lg:text-[16px] translate-x-1 lg:translate-x-52">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+              <div class="translate-y-[200px] lg:translate-y-[340px]">
+                <button  id="scrollButton" class="btn bg-[#1DD100] border-none  ">Buy Tickets</button>
+              </div>
             </div>
 
-            <div class=" absolute flex flex-grow space-x-5 -translate-y-[115px] justify-center text-center items-center translate-x-36">
+            <div class=" lg:absolute flex flex-col lg:flex-row lg:flex-grow space-y-8 lg:space-y-0 lg:space-x-5 translate-y-[15px] lg:-translate-y-[115px] justify-center text-center items-center lg:translate-x-36">
                 
                     <div class="card card-side bg-base-100 shadow-xl w-[250px]">
-                        <figure><img src="./images/people.png" alt="Movie"/></figure>
+                        <figure><img class="" src="./images/people.png" alt="Movie"/></figure>
                         <div class="card-body">
                           <h2 class="card-title">500K+</h2>
                           <p>Registered users</p>
@@ -80,12 +82,12 @@
                <div class="text-center items-center justify-center text-3xl font-bold m-10">
                 <h2>Best offers for you</h2>
                </div>
-                <div class="flex space-x-5 items-center justify-center">
-                    <div class="flex w-[500px] bg-[#FFBF0F] rounded-md h-[150px] text-center items-center]">
+                <div class="flex flex-col lg:flex-row lg:flex-grow space-x-5 items-center justify-center space-y-3 lg:space-y-0">
+                    <div class="flex w-[400px] lg:w-[500px] bg-[#FFBF0F] rounded-md h-[150px] text-center items-center]">
                         <div class="text-center items-center justify-center p-6">
-                            <h4 class="font-bold text-3xl -ml-5">15% OFF</h4>
-                            <p class="font-bold ml-7">on your next purchase</p>
-                            <p>use by January 2024</p>
+                            <h4 class="font-bold text-[20px] lg:text-3xl -ml-5">15% OFF</h4>
+                            <p class="text-[13px] lg:text-[16px] -ml-7 pl-3 lg:pl-0  font-bold lg:ml-7">on your next purchase</p>
+                            <p class="text-[12px] lg:text-[16px]">use by January 2024</p>
                         </div>
                         
                             <img class="ml-12" src="./images/cupon-devider.svg" alt="">
@@ -97,23 +99,23 @@
 
                     </div>
 
-                    <div class="flex w-[500px] bg-[#F78C9C] rounded-md h-[150px] text-center items-center]">
-                        <div class="text-center items-center justify-center p-6">
-                            <h4 class="font-bold text-3xl -ml-5">20% OFF</h4>
-                            <p class="font-bold ml-7">on your next purchase</p>
-                            <p>use by January 2024</p>
+                    <div class="flex w-[400px] lg:w-[500px] !ml-0 lg:!ml-8 bg-[#F78C9C] rounded-md h-[150px] text-center items-center]">
+                        <div class="text-center items-center justify-center lg:p-8 pt-6 pl-6 lg:pl-0 ">
+                            <h4 class="font-bold text-[20px] lg:text-3xl -ml-5">20% OFF</h4>
+                            <p class="text-[13px] lg:text-[16px]  lg:pl-0  font-bold lg:ml-7">on your next purchase</p>
+                            <p class="text-[12px]  lg:-ml-0 w-[134px] lg:w-[200px] lg:text-[16px]">use by January 2024</p>
                         </div>
                         
                             <img class="ml-12" src="./images/cupon-devider.svg" alt="">
                        
-                        <div class="text-center items-center flex flex-col justify-center p-6">
+                        <div class="text-center items-center flex flex-col justify-center p-4">
                             <h2 class="font-bold text-3xl">Couple<sub>20</sub></h2>
                             <p class="font-light -ml-4">Coupon Code</p>
                       </div>
                      </div>
                     </div>
                     <div class="text-center justify-center items-center mt-12">
-                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-[#1DD100] border-[#1DD100]">Responsive</button>
+                        <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-[#1DD100] border-[#1DD100] h-[50px] lg:h-[0px] w-[100px] lg:w-[120px]">Responsive</button>
                      </div>
             </section>
             <!-- Best offers for you end ------------>
@@ -121,24 +123,24 @@
             <section class="container mx-auto lg:px-24 px-8 bg-[#F7F8F8] py-12 border-t-green-600 border-solid border-t-2 rounded-[50px]">
                 <div>
                     <div class="text-center items-center justify-center">
-                        <h2 class="text-3xl font-bold">P.H Paribahan</h2>
-                        <p class="ml-[250px] w-[600px] text-center items-center justify-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                        <h2  id="" class="text-3xl font-bold">P.H Paribahan</h2>
+                        <p class="-ml-[18px] lg:ml-[250px] text-[10px] lg:text-[16px] w-[400px] lg:w-[600px] text-center items-center justify-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
                     </div>
 
 
                     <!-- card section start -->
                     <div class=" bg-[#FFFFFF] mt-14 h-[360px] rounded-lg">
-                        <div class="flex ">
+                        <div class="flex">
                             <img src="./images/bus-logo.png" alt="">
                             <div>
-                                <h2 class="text-2xl font-semibold">Greenline Paribahan</h2>
-                                <p>Coach-009-WEB ! AC_Business</p>
+                                <h2 class="text-sm lg:text-2xl font-semibold">Greenline Paribahan</h2>
+                                <p class="text-[8px] lg:text-[15px] w-[200px] lg:w-[202px]">Coach-009-WEB ! AC_Business</p>
                             </div>
-                                <a class="btn text-[#1DD100] border-[#1DD100] ml-[300px]"><img src="./images/seat-green.png" alt=""><span>40</span>Seats left</a>
+                                <a class="btn text-[#1DD100] border-[#1DD100] -ml-[14px] lg:ml-[300px] text-[8px] lg:text-[12px] lg:font-bold"><img class="w-[10px] lg:w-[30px]" src="./images/seat-green.png" alt=""><span id="downNumber">40</span>Seats left</a>
                         </div>
                         <!-- chaild card section  -->
                         <div class="flex justify-between">
-                            <div class="bg-[#F7F8F8] w-[737px] h-[258px] justify-between mt-6 rounded-md">
+                            <div class="bg-[#F7F8F8] w-[737px] h-[258px] justify-between -ml-7 lg:-ml-0 mt-6 rounded-md">
                                <div class="m-8 mb">
                                 <div class="flex justify-between border-b border-dashed border-[#030712] mb-12">
                                     <p>Route</p>
@@ -151,7 +153,7 @@
                                 <div class="flex space-x-4">
                                     <p class="bg-[#dcd9d9] p-4 ">Boarding Point - Laxmipur</p>
                                     <p class="bg-[#dcd9d9] p-4 ">Dropping Point - Bogura</p>
-                                    <p class="bg-[#dcd9d9] p-2 px-[42px]">Est. Time - 11 Hour</p>
+                                    <p class="bg-[#dcd9d9] p-2 px-[42px] ">Est. Time - 11 Hour</p>
                                 </div>
                                </div>
 
@@ -169,8 +171,8 @@
                     </div>
                 </div>
                 <!-- Greenline Paribahan finis -------------------->
-                <div class="flex bg-[#FFFFFF] pt-7 w-full ">
-                    <div class=" border-dashed border-r border-[#9e9d9d]">
+                <div class="flex flex-col lg:flex-row bg-[#FFFFFF] pt-7 w-full ">
+                    <div class=" border-none lg:border-dashed lg:border-r border-[#9e9d9d]">
 
                        <h2 class="text-2xl font-bold border-dashed border-b border-[#9e9d9d] mb-6 pb-6"> Select Your Seat</h2>
 
@@ -186,7 +188,7 @@
                         </div>
                        <div class="text-right items-end justify-end mt-3"> <button class="btn border-none px-10 "><img src="./images/wheel.svg" alt=""></button>
                        </div>
-                        <div class="flex space-x-14 space-y-14">
+                        <div class="flex space-x-1 lg:space-x-14 space-y-14">
 
 
                             <div class="space-y-[52px] mt-14">
@@ -203,87 +205,81 @@
                             </div>
 
                             <div class="space-y-6">
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">A1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">B1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">C1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">D1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">E1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">F1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">G1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">H1</p>
-                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">I1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">A1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">B1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">C1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">D1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">E1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">F1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">G1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">H1</p>
+                                <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">I1</p>
                             </div>
 
                             <div class="space-y-6">
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">A2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">B2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">C2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">D2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">E2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">F2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">G2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">H2</p>
-                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">I2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">A2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">B2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">C2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">D2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">E2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">F2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">G2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">H2</p>
+                             <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">I2</p>
                             </div>
 
                             <div class="space-y-6">
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">A3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">B3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">C3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">D3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">E3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">F3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">G3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">H3</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">I3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">A3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">B3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">C3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">D3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">E3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">F3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">G3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">H3</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">I3</p>
                             </div>
 
                             <div class="space-y-6">
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">A4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">B4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">C4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">D4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">E4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">F4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">G4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">H4</p>
-                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3">I4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">A4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">B4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">C4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">D4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">E4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">F4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">G4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">H4</p>
+                            <p class="bg-[#e0e0e1] w-[80px] h-[50px] rounded-md text-center p-3 set-btn">I4</p>
                             </div>
                        </div>
 
                     </div>
-                    <div class="ml-11">
+                    <div class="ml-0 lg:ml-11">
                         <h2 class="text-2xl font-bold ">Select Your Seat</h2>
 
-                        <div class="bg-[#e0e0e1] rounded-md h-[300px]">
+                        <div class="bg-[#e0e0e1] rounded-md">
                            <div class="p-4">
-                            <div class="flex space-x-36 border-dashed border-[#c9c7c7] border-b pb-2">
-                                <p>Seat <span class="bg-green-500 rounded-md px-2 py-0">0</span></p>
+                            <div class="flex space-x-28 lg:space-x-36 border-dashed border-[#c9c7c7] border-b pb-2">
+                                <p>Seat <span id="countPlus" class="bg-green-500 rounded-md px-2 py-0">0</span></p>
                                 <p>Class</p>
                                 <p>Price</p>
                             </div>
-                            <div class="flex space-x-[150px] pb-2">
-                                <p>C2</p>
-                                <p>Economoy</p>
-                                <p>550</p>
+                           <div>
+                            <div id="priceInput">
+
                             </div>
-                            <div class="flex space-x-[150px] border-dashed border-[#c9c7c7] border-b pb-2">
-                                <p>C2</p>
-                                <p>Economoy</p>
-                                <p>550</p>
-                            </div>
-                            <div class="flex space-x-[274px] mt-6 mb-4 pb-2 font-bold">
+                           </div>
+                            <div class="flex space-x-[150px] lg:space-x-[274px] mt-6 mb-4 pb-2 font-bold  border-dashed border-[#c9c7c7] border-t ">
                                 <p>Total Price</p>
-                                <p>BDT<span>1100</span></p>
+                                <p>BDT<span id="count-sum">0</span></p>
                             </div>
                             <div class="bg-white rounded-md justify-between flex pb-2 h-[65px]">
-                                <input class="p-4 w-[320px]" type="text" placeholder="Have any copupon?">
-                                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-white h-4 w-24 bg-[#1DD100]">Apply</button>
-                                
+                                <input class="p-4 w-[300px] lg:w-[320px]" type="text" placeholder="Have any copupon?">
+                                <button id="coupon-btn" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-white h-[65px] lg:h-4 w-[100px] lg:w-24 bg-[#1DD100]">Apply</button>
                             </div>
-                            <div class="flex space-x-[258px] font-bold mt-6">
+                            <div class="flex space-x-[150px] lg:space-x-[258px] font-bold mt-6">
                                 <p>Grand Total</p>
-                                <p>BDT 1100</p>
+                                <p>BDT<span id="finalcost">0</span></p>
                             </div>
                            </div>
 
@@ -302,7 +298,7 @@
                                     <div class="label">
                                       <span class="text-xl">Phone Number*</span>
                                     </div>
-                                    <input type="number" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
+                                    <input id="phone-input" type="number" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
                                   </label>
                                 <label class="form-control w-full max-w-xs">
                                     <div class="label">
@@ -313,7 +309,7 @@
                                  
                             </div>
                             <div>
-                                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-white w-full bg-[#1DD100] mt-5 border-none">Next</button>
+                                <button id="next-btn" class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg text-white w-[320px] lg:w-full bg-[#1DD100] mt-5 border-none">Next</button>
                                 <div class="flex space-x-[58px]  text-center items-center justify-center mt-3 ">
                                     <p class="underline">Terms and Conditions</p>
                                     <p class="underline">Cancellation Policy</p>
@@ -328,27 +324,10 @@
 
          </section>
 
-         <!-- exta section  -->
-         <div class="hidden">
-            <div class="card w-[400px] bg-primary text-primary-content">
-                <div class="card-body text-center items-center">
-                    <img class="w-[100px] h-[100px]" src="./images/success.png " alt="">
-                  <h2 class="card-title">SUCCESS</h2>
-                  <p class="font-bold">Thank you for Booking Our Bus Seats. 
-                    We are working hard to find the best service and deals for you.</p>
-                    <p class="font-light">Shortly you will find a confirmation in your email.</p>
-                  <div class="card-actions justify-center ">
-                    <button class="btn rounded-full w-40">Continue</button>
-                  </div>
-                </div>
-              </div>
-         </div>
-         <!-- exta section end -->
-
     </main>
 
     <footer class="text-neutral-content bg-neutral ">
-      <div class="footer p-10 border-dashed border-b border-white h-[200px] ">
+      <div class="footer p-10 border-none lg:border-dashed lg:border-b border-white h-[200px] ">
         <aside>
           
             <p>P-Ticket<br>P-Ticket is a digital platform to make your <br> daily commuting better.</p>
@@ -360,18 +339,16 @@
             </div>
           </nav>
       </div>
-        <div class="flex space-x-4 pb-40 mt-14 ml-10">
+        <div class="flex flex-col lg:flex-row -space-x-0 lg:space-x-4 pb-40 mt-14 ml-10">
             <p>@all rights reserved, P-Ticket services limited.2024</p>
-            <div class="flex pl-[250px] space-x-6 ">
+            <div class="flex flex-col lg:flex-grow lg:flex-row pl-[0px] lg:pl-[250px] space-x-0 lg:space-x-6 ">
              <p>Terms & condition</p>
             <p>Return & refund policy</p>
             <p>Privacy policy</p>
             </div>
         </div>
       </footer>
-
+      <!-- js link  ------------>
+      <script src="mission5.js"></script>
 </body>
 </html>
-
-
-
